@@ -14,7 +14,7 @@ setopt share_history         # 不同視窗同步紀錄
 zshaddhistory() {
 	    # 使用正規表達式匹配你不想紀錄的指令
 	    # [[ $1 匹配模式 ]]
-	    if [[ "$1" =~ "^(ls|cd|pwd|exit|la|bye|lazygit|musicDownloadTui|tmux| )" ]]; then
+	    if [[ "$1" =~ "^(ls|cd|pwd|exit|la|bye|gitui|musicDownloadTui|tmux| )" ]]; then
 		            return 1
 				        fi
 					    return 0
@@ -23,6 +23,10 @@ zshaddhistory() {
 # 3. 初始化補全系統 (放在外掛之前)
 zstyle ':completion:*' menu yes select
 autoload -Uz compinit && compinit
+
+# 3.1載入 fzf 的補全功能與按鍵綁定 (MacPorts 路徑)
+[ -f /opt/local/share/fzf/shell/completion.zsh ] && source /opt/local/share/fzf/shell/completion.zsh
+[ -f /opt/local/share/fzf/shell/key-bindings.zsh ] && source /opt/local/share/fzf/shell/key-bindings.zsh
 
 # 4. 外掛載入 (MacPorts 路徑)
 [ -f /opt/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && source /opt/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
