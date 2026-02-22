@@ -2,7 +2,12 @@
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 export LANG="en_US.UTF-8"
 
-# 1.1將 SSH 金鑰加入代理並儲存密碼於鑰匙圈
+# 1.1 載入秘密環境變數 (GitHub Token 等)
+if [ -f ~/.secrets ]; then
+    source ~/.secrets
+    fi
+
+# 1.2將 SSH 金鑰加入代理並儲存密碼於鑰匙圈
 if [ -f ~/.ssh/id_ed25519 ]; then
     ssh-add --apple-use-keychain ~/.ssh/id_ed25519 2>/dev/null
     fi
@@ -56,6 +61,7 @@ unsetopt IGNORE_EOF
 # 8. Alias
 alias la="ls -Gla"
 alias ll="ls -Gl"
+alias grip='python -m grip'
 alias vpnLocation="curl ipinfo.io/country"
 alias musicDownloadTui="~/ShellScripts/musicDownloadTui.sh"
 
