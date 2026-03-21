@@ -20,6 +20,7 @@ Used on macOS10.15.8 Catalina which was installed @20260217.
 - [NTFS for Mac][]: Version 15.12.1 .
 - [Numbers][]: Version 11.1（7031.0.102）.
 - [Pages][]: Version 11.1（7031.0.102）.
+- [TinkerTool][]: Version 7.6（Build 201117）.
 - [Yoink][]: @20260222, *macOS10.15.8 still can use the latest version*.
 
 
@@ -40,4 +41,5 @@ Used on macOS10.15.8 Catalina which was installed @20260217.
 [NTFS for Mac]: https://paragon-software.zendesk.com/hc/en-us/articles/29003988155409-NTFS-For-Mac-Supported-OS-Versions
 [Numbers]: https://support.apple.com/numbers
 [Pages]: https://support.apple.com/pages
+[TinkerTool]: https://www.bresink.com/osx/TinkerToolProductsMatrix.html
 [Yoink]: https://www.eternalstorms.at/yoink/mac/
