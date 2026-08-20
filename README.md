@@ -3,28 +3,31 @@ Used on macOS10.15.8 Catalina which was installed @20260217.
 
 ## The version of installed softwares
 
-- [AppCleaner][]: @20260222, *macOS10.15.8 still can use the latest version*--Version 3.6.8 (4332) .
+- [AppCleaner][]: @20260820, *macOS10.15.8 still can use the latest version*--Version 3.6.8 (4332) .
+- [AquaSKK][]: Version 4.7.1 (2020-08-29) .
 - [BetterTouchTool][]: Version 3.9999-2208 .
-- [Firefox][]: @20260222, *macOS10.15.8 still can use the latest version*.
+- [Firefox][]: @20260820, *macOS10.15.8 still can use the latest version*.
 - [GarageBand][]: Version 10.3.5 （5305）.
 - [iMovie][]: Version 10.2.5（400096）.
-- [IINA][]: @20260222, *macOS10.15.8 still can use the latest version*--version 1.4.1 .
-- [Keka][]: @20260222, *macOS10.15.8 still can use the latest version*--Version 1.6.0 .
+- [IINA][]: @20260820, *macOS10.15.8 still can use the latest version*--version 1.4.4 .
+- [Keka][]: @20260820, *macOS10.15.8 still can use the latest version*--Version 1.6.7 .
 - [Keynote][]: Version 11.1（7031.0.102）.
 - [Magnet][]: Version 2.14.0 .
 - [Maccy][]: Version 0.29.3（27）.
-- [Macs Fan Control][]: @20260222, *macOS10.15.8 still can use the latest version*.
+- [Macs Fan Control][]: @20260820, *macOS10.15.8 still can use the latest version*.
 - [Microsoft Word][]: Version 16.66.1（22101101）.
 - [Microsoft Excel][]: Version 16.66.1（22101101）.
 - [Microsoft PowerPoint][]: Version 16.66.1（22101101）.
 - [NTFS for Mac][]: Version 15.12.1 .
 - [Numbers][]: Version 11.1（7031.0.102）.
 - [Pages][]: Version 11.1（7031.0.102）.
+- [rime][]: Version 0.16.2 .
 - [TinkerTool][]: Version 7.6（Build 201117）.
-- [Yoink][]: @20260222, *macOS10.15.8 still can use the latest version*.
+- [Yoink][]: @20260820, *macOS10.15.8 still can use the latest version*.
 
 
 [AppCleaner]: https://freemacsoft.net/appcleaner/
+[AquaSKK]: https://github.com/codefirst/aquaskk/releases/download/4.7.1/AquaSKK-4.7.1.pkg 
 [BetterTouchTool]: https://folivora.ai/releases/btt3.9999-2208.zip
 [Firefox]: https://www.mozilla.org/zh-TW/firefox/new/
 [GarageBand]: https://support.apple.com/garageband
@@ -41,5 +44,6 @@ Used on macOS10.15.8 Catalina which was installed @20260217.
 [NTFS for Mac]: https://paragon-software.zendesk.com/hc/en-us/articles/29003988155409-NTFS-For-Mac-Supported-OS-Versions
 [Numbers]: https://support.apple.com/numbers
 [Pages]: https://support.apple.com/pages
+[rime]: https://github.com/rime/squirrel/releases/download/0.16.2/Squirrel-0.16.2.zip 
 [TinkerTool]: https://www.bresink.com/osx/TinkerToolProductsMatrix.html
 [Yoink]: https://www.eternalstorms.at/yoink/mac/
